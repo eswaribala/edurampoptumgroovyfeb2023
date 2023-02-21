@@ -4,7 +4,7 @@ package com.optum.insurance.utilities
 /*
 @author Parameswari
 @date 21/02/2023
- */
+
 
 println "Rocking with groovy...."
 //method1
@@ -30,3 +30,18 @@ println nameOfTheInsured.class.name
 
 println "Policy No ${policyNo}"
 println "From Date ${fromDate}"
+ */
+insuredAmount=new Random().nextInt(100).plus(1000)
+println "Insured Amount = ${insuredAmount}"
+
+def description='''Date, Time, Speed, Exact Place Where loss occurred, Place to which the vehicle was 
+heading before the accident, Purpose for which vehicle was used at the time of accident, 
+Number of people travelling at time of accident, is it reported to the Police, Name of the Police station, 
+FIR No, Statement of how the Accident / Theft occurre'''
+
+println """ Description = ${description}"""
+//multi line accepted
+pattern=/
+[a-zA-Z]*/
+
+println "${pattern}"
