@@ -15,7 +15,11 @@ policyNo=System.in.newReader().readLine();
 def readln = javax.swing.JOptionPane.&showInputDialog
 
 def fromDate= readln 'Enter From Date'
-toDate='2025/1/1'
+
+//method 3
+Scanner scanner=new Scanner(System.in)
+
+toDate=scanner.nextLine()
 
 nameOfTheInsured = readln 'Enter Name of the Insured?'
 
