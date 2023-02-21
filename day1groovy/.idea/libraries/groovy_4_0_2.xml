@@ -31,6 +31,7 @@
       <root url="jar://$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/groovy-console-4.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/groovy-xml-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lombok-1.18.26.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
