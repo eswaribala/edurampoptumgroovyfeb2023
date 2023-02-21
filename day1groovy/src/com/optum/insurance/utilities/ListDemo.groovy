@@ -15,4 +15,5 @@ def policyHolder=[7257524526, LocalDate.of(2015,1,1), LocalDate.of(2020,1,1),
 policyHolder.add(true)
 
 //closure
-policyHolder.each {println(it)}
+policyHolder.each{item->println(item)}
+println "List Size ${policyHolder.size()}"
