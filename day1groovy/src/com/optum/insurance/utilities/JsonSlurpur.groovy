@@ -16,4 +16,11 @@ assert object.name == 'Laptop'
 //check file exists
 File file = new File("users.txt")
 def lines = file.readLines()
-println "$lines"
+//println "$lines"
+
+//parse json data in the file
+def users=jsonSlurper.parse(new File("users.txt"))
+
+users.each {
+    x->printf("userId %s name %s\n",x.id,x.name)
+}
