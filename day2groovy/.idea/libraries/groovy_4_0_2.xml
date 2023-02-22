@@ -31,6 +31,7 @@
       <root url="jar://$PROJECT_DIR$/lib/groovy-typecheckers-4.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/groovy-swing-4.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/groovy-xml-4.0.2.jar!/" />
+      <root url="jar://C:/Program Files (x86)/MySQL/Connector.J 5.1/mysql-connector-java-5.1.44-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
