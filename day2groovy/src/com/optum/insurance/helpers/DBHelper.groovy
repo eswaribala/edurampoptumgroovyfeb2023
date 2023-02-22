@@ -20,7 +20,7 @@ class DBHelper {
 
   def static String getPropertyFileName(){
 
-     return "./src/com/optum/insurance/resources/db.properties"
+     return "db.properties"
   }
 
 }
