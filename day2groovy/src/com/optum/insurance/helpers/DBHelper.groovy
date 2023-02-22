@@ -20,7 +20,7 @@ class DBHelper {
 
   def static String getPropertyFileName(){
 
-     return "db.properties"
+     return "F:\\groovyoptumfeb2023\\day2groovy\\src\\com\\optum\\insurance\\resources\\db.properties"
   }
 
 }
