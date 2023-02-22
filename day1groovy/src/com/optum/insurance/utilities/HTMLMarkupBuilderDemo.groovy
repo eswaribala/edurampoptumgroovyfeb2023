@@ -2,14 +2,30 @@ package com.optum.insurance.utilities
 
 import groovy.xml.MarkupBuilder
 
-def page =new MarkupBuilder();
-page.root {
-    html( ) {
-        head{ title{
+def writer = new StringWriter()
+def html = new MarkupBuilder(writer)
+html.html {
+    head {
+        title: "Creating Optum Global Insurance"
+        //script: "alert('hello');"
+    }
+    body(id: "gins") {
+        h2 id: "book-mark",  "Claim Management System"
+        p {
+            mkp.yield "Mixing text with"
+            strong "strong"
+            mkp.yield " elements."
+        }
+        a href: "http://vebdental-care.com/", "Veb Dental Care"
+        div{
+            p 'Solution Architecture'
+        }
+        ol{
+            for(count in 1..5) {
+                li "Project $count"
+            }
 
-        } }
-        body( bgColor:'blue', ol{
-
-        } )
+        }
     }
 }
+println writer
