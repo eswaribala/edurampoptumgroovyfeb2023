@@ -23,14 +23,9 @@ for(def i : 1..100){
 
 }
 
-println "${policyHolders.size()}"
-println("Before Sorting................")
-policyHolders.each {println "${it.policyNo}->${it.addressList.get(0).city}"
-       }
 
-//policyHolders sorting
-
-policyHolders.sort{p1,p2 -> p1.policyNo .compareTo(p2.getPolicyNo())}
-println("After Sorting................")
-policyHolders.each {println "$it.policyNo  ${it.addressList.get(0).city}"
-}
+//groovy truth
+//expectation not null
+assert policyHolders:"Policy Holder Not null"
+//expectation policyholders size should be greater than 0
+assert policyHolders.size():"Policy Holder Not Empty"
