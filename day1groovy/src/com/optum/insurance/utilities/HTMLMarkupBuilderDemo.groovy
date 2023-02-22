@@ -3,8 +3,8 @@ package com.optum.insurance.utilities
 import groovy.xml.MarkupBuilder
 
 def writer = new StringWriter()
-def html = new MarkupBuilder(writer)
-html.html {
+def page = new MarkupBuilder(writer)
+page.html {
     head {
         title: "Creating Optum Global Insurance"
         //script: "alert('hello');"
