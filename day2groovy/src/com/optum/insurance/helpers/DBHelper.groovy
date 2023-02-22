@@ -10,7 +10,10 @@ class DBHelper {
     Properties properties=new Properties()
     File propertyFile=new File(getPropertyFileName())
     propertyFile.withInputStream {properties.load(it)}
-
+    println properties.url
+    println properties.userName
+    println properties.password
+    println properties.driverClassName
     //db connection
     return Sql.newInstance(properties.url, properties.userName,properties.password, properties.driverClassName)
 
