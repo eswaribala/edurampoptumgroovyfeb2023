@@ -1,402 +1,1802 @@
 {
-    "9931": {
-        "name": "name100",
-        "price": 445200
-    },
-    "2482": {
-        "name": "name66",
-        "price": 993893
-    },
-    "2290": {
-        "name": "name20",
-        "price": 379690
-    },
-    "1525": {
-        "name": "name51",
-        "price": 226693
-    },
-    "9545": {
-        "name": "name3",
-        "price": 574261
-    },
-    "3241": {
-        "name": "name29",
-        "price": 796774
-    },
-    "2282": {
-        "name": "name82",
-        "price": 223986
-    },
-    "8966": {
-        "name": "name54",
-        "price": 53738
-    },
-    "369": {
-        "name": "name99",
-        "price": 676508
-    },
-    "4951": {
-        "name": "name69",
-        "price": 757392
-    },
-    "5331": {
-        "name": "name55",
-        "price": 921125
-    },
-    "4757": {
-        "name": "name58",
-        "price": 831828
-    },
-    "7620": {
-        "name": "name57",
-        "price": 715839
-    },
-    "1695": {
+    "572": {
         "name": "name50",
-        "price": 366580
+        "price": 14023,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 9,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 40,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
     },
-    "7233": {
-        "name": "name67",
-        "price": 167690
-    },
-    "545": {
-        "name": "name80",
-        "price": 559854
-    },
-    "1305": {
-        "name": "name18",
-        "price": 453819
-    },
-    "4169": {
-        "name": "name33",
-        "price": 666407
-    },
-    "1302": {
-        "name": "name95",
-        "price": 414431
-    },
-    "2639": {
-        "name": "name7",
-        "price": 762201
-    },
-    "9320": {
-        "name": "name61",
-        "price": 852638
-    },
-    "724": {
-        "name": "name17",
-        "price": 944199
-    },
-    "5496": {
-        "name": "name79",
-        "price": 349511
-    },
-    "3395": {
-        "name": "name68",
-        "price": 580693
-    },
-    "3777": {
-        "name": "name40",
-        "price": 484697
-    },
-    "8741": {
-        "name": "name26",
-        "price": 254233
-    },
-    "9501": {
-        "name": "name23",
-        "price": 234782
-    },
-    "8544": {
-        "name": "name92",
-        "price": 37299
-    },
-    "4341": {
-        "name": "name13",
-        "price": 205111
-    },
-    "6053": {
-        "name": "name4",
-        "price": 352424
-    },
-    "8152": {
-        "name": "name98",
-        "price": 535879
-    },
-    "6431": {
-        "name": "name39",
-        "price": 167573
-    },
-    "1845": {
-        "name": "name19",
-        "price": 599423
-    },
-    "7000": {
-        "name": "name77",
-        "price": 885415
-    },
-    "5472": {
-        "name": "name42",
-        "price": 48830
-    },
-    "7572": {
-        "name": "name8",
-        "price": 565260
-    },
-    "8145": {
-        "name": "name62",
-        "price": 52553
-    },
-    "5279": {
-        "name": "name35",
-        "price": 985396
-    },
-    "6042": {
-        "name": "name15",
-        "price": 955322
-    },
-    "4704": {
-        "name": "name72",
-        "price": 726352
-    },
-    "9287": {
-        "name": "name89",
-        "price": 22057
-    },
-    "6230": {
-        "name": "name24",
-        "price": 401718
-    },
-    "9666": {
-        "name": "name94",
-        "price": 219596
-    },
-    "3745": {
-        "name": "name70",
-        "price": 872120
-    },
-    "114": {
-        "name": "name96",
-        "price": 4937
-    },
-    "7370": {
-        "name": "name2",
-        "price": 556315
-    },
-    "2976": {
-        "name": "name76",
-        "price": 972644
-    },
-    "298": {
-        "name": "name14",
-        "price": 565125
-    },
-    "7354": {
-        "name": "name22",
-        "price": 836693
-    },
-    "4297": {
-        "name": "name74",
-        "price": 487508
-    },
-    "1813": {
-        "name": "name38",
-        "price": 823968
-    },
-    "2004": {
-        "name": "name1",
-        "price": 924736
-    },
-    "1047": {
-        "name": "name21",
-        "price": 690555
-    },
-    "8110": {
+    "5344": {
         "name": "name46",
-        "price": 525188
+        "price": 343029,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 156,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
     },
-    "1230": {
-        "name": "name11",
-        "price": 549661
+    "4576": {
+        "name": "name92",
+        "price": 648432,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 96,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
     },
-    "845": {
-        "name": "name30",
-        "price": 486008
-    },
-    "9628": {
-        "name": "name52",
-        "price": 170629
-    },
-    "6378": {
-        "name": "name32",
-        "price": 175916
-    },
-    "1791": {
-        "name": "name87",
-        "price": 14887
-    },
-    "9812": {
-        "name": "name25",
-        "price": 163013
-    },
-    "5609": {
-        "name": "name44",
-        "price": 757315
-    },
-    "6179": {
-        "name": "name75",
-        "price": 823389
-    },
-    "9042": {
+    "7440": {
         "name": "name60",
-        "price": 185042
+        "price": 558343,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 10,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 70,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
     },
-    "7704": {
-        "name": "name71",
-        "price": 739150
+    "3046": {
+        "name": "name100",
+        "price": 905033,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 10,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 101,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
     },
-    "4456": {
-        "name": "name31",
-        "price": 368207
+    "4955": {
+        "name": "name23",
+        "price": 165280,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 82,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
     },
-    "2545": {
-        "name": "name5",
-        "price": 935473
+    "5909": {
+        "name": "name55",
+        "price": 325768,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 2,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 154,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
     },
-    "7127": {
-        "name": "name81",
-        "price": 877465
+    "3996": {
+        "name": "name19",
+        "price": 612161,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 217,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
     },
-    "9418": {
-        "name": "name45",
-        "price": 531242
+    "9916": {
+        "name": "name18",
+        "price": 681938,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 21,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 112,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
     },
-    "4451": {
-        "name": "name64",
-        "price": 85230
-    },
-    "8459": {
-        "name": "name65",
-        "price": 956367
-    },
-    "5211": {
-        "name": "name49",
-        "price": 726760
-    },
-    "7502": {
-        "name": "name6",
-        "price": 879627
-    },
-    "1005": {
-        "name": "name43",
-        "price": 908135
-    },
-    "5970": {
-        "name": "name84",
-        "price": 805516
-    },
-    "3295": {
-        "name": "name9",
-        "price": 501889
-    },
-    "427": {
-        "name": "name90",
-        "price": 219035
-    },
-    "5011": {
-        "name": "name59",
-        "price": 384290
-    },
-    "617": {
-        "name": "name56",
-        "price": 435590
-    },
-    "5964": {
-        "name": "name41",
-        "price": 385069
-    },
-    "7110": {
-        "name": "name37",
-        "price": 648328
-    },
-    "7106": {
-        "name": "name85",
-        "price": 213611
-    },
-    "420": {
+    "9342": {
         "name": "name16",
-        "price": 5588
+        "price": 732929,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 34,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
     },
-    "8057": {
+    "7240": {
+        "name": "name35",
+        "price": 400976,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 106,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
+    },
+    "2464": {
+        "name": "name44",
+        "price": 686808,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 17,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 291,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "935": {
+        "name": "name24",
+        "price": 122769,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 22,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "2079": {
+        "name": "name25",
+        "price": 885005,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 18,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 231,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
+    },
+    "5898": {
+        "name": "name97",
+        "price": 953321,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 19,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 201,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "4943": {
+        "name": "name73",
+        "price": 240726,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 163,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "8181": {
+        "name": "name99",
+        "price": 275498,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 82,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "8179": {
+        "name": "name63",
+        "price": 451095,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 36,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "1873": {
+        "name": "name14",
+        "price": 597373,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 18,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 170,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "3018": {
+        "name": "name17",
+        "price": 18619,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 204,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "7405": {
+        "name": "name10",
+        "price": 820846,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 18,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 78,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "5302": {
+        "name": "name33",
+        "price": 41205,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 71,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "6249": {
+        "name": "name86",
+        "price": 846630,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 10,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 284,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "6630": {
+        "name": "name91",
+        "price": 553946,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 35,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "6245": {
+        "name": "name70",
+        "price": 370662,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 12,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 256,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "7962": {
+        "name": "name74",
+        "price": 340346,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 24,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 298,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "3951": {
+        "name": "name30",
+        "price": 699627,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 14,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 227,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
+    },
+    "9489": {
+        "name": "name29",
+        "price": 319137,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 163,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "5665": {
+        "name": "name38",
+        "price": 935669,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 6,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 97,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
+    },
+    "8337": {
+        "name": "name41",
+        "price": 887868,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 19,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 201,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "5659": {
+        "name": "name87",
+        "price": 163503,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 12,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 72,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "690": {
+        "name": "name81",
+        "price": 607516,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 8,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 252,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "5083": {
+        "name": "name31",
+        "price": 446399,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 75,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "3169": {
+        "name": "name69",
+        "price": 239849,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 46,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "4123": {
+        "name": "name36",
+        "price": 481317,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 35,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "488": {
+        "name": "name89",
+        "price": 160154,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 20,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 294,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "5836": {
+        "name": "name80",
+        "price": 937672,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 9,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 9,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "2970": {
+        "name": "name39",
+        "price": 201251,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 71,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "6407": {
+        "name": "name82",
+        "price": 394465,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 25,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 25,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "867": {
+        "name": "name20",
+        "price": 387333,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 13,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 73,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "2776": {
+        "name": "name94",
+        "price": 242406,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 24,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 268,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "7359": {
+        "name": "name57",
+        "price": 987801,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 11,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "8313": {
+        "name": "name90",
+        "price": 990774,
+        "dop": {
+            "year": 2020,
+            "month": "MAY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 124,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 5
+        }
+    },
+    "6021": {
+        "name": "name67",
+        "price": 394510,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 13,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 257,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "9458": {
+        "name": "name15",
+        "price": 468448,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 34,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "2387": {
+        "name": "name65",
+        "price": 519002,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 6,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 158,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "94": {
+        "name": "name96",
+        "price": 454756,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 12,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 164,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "4677": {
+        "name": "name66",
+        "price": 810207,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 279,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "3146": {
+        "name": "name21",
+        "price": 394250,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 106,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
+    },
+    "3333": {
         "name": "name93",
-        "price": 813611
+        "price": 951964,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 193,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
     },
-    "1943": {
-        "name": "name53",
-        "price": 96710
+    "3524": {
+        "name": "name68",
+        "price": 235011,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 8,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 99,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
     },
-    "7290": {
+    "2950": {
+        "name": "name45",
+        "price": 599428,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 82,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "1994": {
+        "name": "name61",
+        "price": 371348,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 23,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 54,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "2374": {
+        "name": "name4",
+        "price": 877605,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 17,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 77,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "6575": {
+        "name": "name59",
+        "price": 650028,
+        "dop": {
+            "year": 2020,
+            "month": "MAY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 132,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 5
+        }
+    },
+    "9630": {
+        "name": "name52",
+        "price": 807248,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 16,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 260,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "5236": {
+        "name": "name9",
+        "price": 365332,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 12,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 256,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "8101": {
+        "name": "name49",
+        "price": 916148,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 10,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 10,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "652": {
+        "name": "name71",
+        "price": 356211,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 25,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 269,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "78": {
+        "name": "name1",
+        "price": 523298,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 12,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 225,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
+    },
+    "3896": {
+        "name": "name26",
+        "price": 822451,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 18,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 170,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "4657": {
+        "name": "name22",
+        "price": 379704,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 279,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "5994": {
+        "name": "name7",
+        "price": 28933,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 11,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 224,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
+    },
+    "5604": {
+        "name": "name58",
+        "price": 37181,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 64,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "255": {
         "name": "name28",
-        "price": 489884
+        "price": 224403,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 10,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 70,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "4075": {
+        "name": "name48",
+        "price": 27391,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 266,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "1209": {
+        "name": "name84",
+        "price": 20310,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 9,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 191,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "2731": {
+        "name": "name27",
+        "price": 47455,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 7,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 220,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
+    },
+    "246": {
+        "name": "name6",
+        "price": 253409,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 20,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 20,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "628": {
+        "name": "name12",
+        "price": 464462,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 9,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 100,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
+    },
+    "4062": {
+        "name": "name79",
+        "price": 960165,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 22,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 174,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "2342": {
+        "name": "name3",
+        "price": 380412,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 65,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "48": {
+        "name": "name78",
+        "price": 442925,
+        "dop": {
+            "year": 2020,
+            "month": "JUNE",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 156,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 6
+        }
+    },
+    "9213": {
+        "name": "name43",
+        "price": 625475,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 13,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 257,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "1953": {
+        "name": "name47",
+        "price": 359167,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 197,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "9973": {
+        "name": "name53",
+        "price": 270346,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 187,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "5961": {
+        "name": "name51",
+        "price": 625173,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 25,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 207,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "2710": {
+        "name": "name5",
+        "price": 826874,
+        "dop": {
+            "year": 2020,
+            "month": "APRIL",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 95,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 4
+        }
+    },
+    "1370": {
+        "name": "name95",
+        "price": 327363,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 13,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 257,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "9391": {
+        "name": "name64",
+        "price": 45059,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 4,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 64,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
     },
     "5761": {
-        "name": "name97",
-        "price": 700564
+        "name": "name77",
+        "price": 726238,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 216,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
     },
-    "5760": {
-        "name": "name34",
-        "price": 26119
+    "3660": {
+        "name": "name32",
+        "price": 913369,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 3,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
     },
-    "9388": {
-        "name": "name48",
-        "price": 50843
+    "219": {
+        "name": "name75",
+        "price": 84258,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 197,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
     },
-    "1171": {
-        "name": "name12",
-        "price": 760800
+    "4036": {
+        "name": "name8",
+        "price": 275884,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 13,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 13,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
     },
-    "9193": {
-        "name": "name47",
-        "price": 891201
-    },
-    "2313": {
-        "name": "name86",
-        "price": 191642
-    },
-    "5560": {
+    "1741": {
         "name": "name83",
-        "price": 906752
+        "price": 346703,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 15,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
     },
-    "5748": {
-        "name": "name91",
-        "price": 137379
+    "4224": {
+        "name": "name2",
+        "price": 161865,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 24,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 55,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
     },
-    "3456": {
-        "name": "name10",
-        "price": 269501
+    "9381": {
+        "name": "name56",
+        "price": 657962,
+        "dop": {
+            "year": 2020,
+            "month": "AUGUST",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 23,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 236,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 8
+        }
     },
-    "7848": {
-        "name": "name63",
-        "price": 65200
+    "7470": {
+        "name": "name72",
+        "price": 208536,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 18,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 200,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
     },
-    "203": {
-        "name": "name73",
-        "price": 836242
+    "4796": {
+        "name": "name62",
+        "price": 868615,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 2,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 33,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
     },
-    "1156": {
+    "1357": {
         "name": "name88",
-        "price": 309690
+        "price": 410253,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 2,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 2,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
     },
-    "7459": {
-        "name": "name27",
-        "price": 498461
+    "1543": {
+        "name": "name13",
+        "price": 924110,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 9,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 40,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
     },
-    "2869": {
-        "name": "name78",
-        "price": 793073
+    "3834": {
+        "name": "name85",
+        "price": 820394,
+        "dop": {
+            "year": 2020,
+            "month": "MAY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 5,
+            "dayOfWeek": "TUESDAY",
+            "dayOfYear": 126,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 5
+        }
     },
-    "1530": {
-        "name": "name36",
-        "price": 414840
+    "8030": {
+        "name": "name76",
+        "price": 580376,
+        "dop": {
+            "year": 2020,
+            "month": "MAY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 24,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 145,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 5
+        }
+    },
+    "4974": {
+        "name": "name54",
+        "price": 649392,
+        "dop": {
+            "year": 2020,
+            "month": "JANUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 15,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 15,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 1
+        }
+    },
+    "8220": {
+        "name": "name42",
+        "price": 18375,
+        "dop": {
+            "year": 2020,
+            "month": "OCTOBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 19,
+            "dayOfWeek": "MONDAY",
+            "dayOfYear": 293,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 10
+        }
+    },
+    "2871": {
+        "name": "name40",
+        "price": 854850,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 6,
+            "dayOfWeek": "SUNDAY",
+            "dayOfYear": 250,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
+    },
+    "8027": {
+        "name": "name11",
+        "price": 992970,
+        "dop": {
+            "year": 2020,
+            "month": "JULY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 3,
+            "dayOfWeek": "FRIDAY",
+            "dayOfYear": 185,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 7
+        }
+    },
+    "6116": {
+        "name": "name37",
+        "price": 187111,
+        "dop": {
+            "year": 2020,
+            "month": "MARCH",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 14,
+            "dayOfWeek": "SATURDAY",
+            "dayOfYear": 74,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 3
+        }
+    },
+    "9743": {
+        "name": "name98",
+        "price": 950843,
+        "dop": {
+            "year": 2020,
+            "month": "FEBRUARY",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 6,
+            "dayOfWeek": "THURSDAY",
+            "dayOfYear": 37,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 2
+        }
+    },
+    "6112": {
+        "name": "name34",
+        "price": 151174,
+        "dop": {
+            "year": 2020,
+            "month": "SEPTEMBER",
+            "chronology": {
+                "calendarType": "iso8601",
+                "id": "ISO"
+            },
+            "dayOfMonth": 2,
+            "dayOfWeek": "WEDNESDAY",
+            "dayOfYear": 246,
+            "era": "CE",
+            "leapYear": true,
+            "monthValue": 9
+        }
     }
 }
