@@ -1,5 +1,6 @@
 package com.optum.insurance.utilities
 
+import com.optum.insurance.models.AuthenticatedUser
 import com.optum.insurance.models.Customer
 import com.optum.insurance.models.Fuel
 import com.optum.insurance.models.Vehicle
@@ -14,7 +15,13 @@ class InsuranceApp {
      println(vehicle.registrationNo)
       println "Vehicle ${vehicle.getRegistrationNo()}"
 
-     def customer=new Customer(9952032862,"param@gmail.com",LocalDate.of(1970,12,2))
+     def customer=new Customer("param","Test@123",9952032862,"Param",LocalDate.of(1970,12,2))
      println "$customer"
+
+     //runtime polymorphism
+
+        AuthenticatedUser user=customer
+        println "$user"
+
     }
 }
