@@ -1,19 +1,16 @@
 package com.optum.insurance.utilities
 
+import com.optum.insurance.models.Product
 import groovy.transform.Field
 
 
-@Field def claims=[[486874, "Claim1", true], [486875, "Claim2", false]]
+@Field List<Product> products=[new Product('laptop',3476576),
+                     new Product('Mobile',34576),
+                     new Product('Tab',3476)]
 
 def sumClaims(){
-    sum=0
-    claims.each {x->
-        {
-            sum+=x[0]
-            println $sum
-        }
 
-    }
+   println products.sum().price
 
 }
 
