@@ -6,7 +6,7 @@ import java.time.LocalDate
 
 @Canonical class PolicyHolder {
 
-    String policyNo;
+    Long policyNo;
     LocalDate fromDate;
     LocalDate toDate;
     String name;
