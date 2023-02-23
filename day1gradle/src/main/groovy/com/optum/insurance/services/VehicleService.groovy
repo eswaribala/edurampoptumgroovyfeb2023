@@ -8,6 +8,7 @@ import groovy.sql.Sql
 
 
 import java.sql.SQLException
+import java.time.LocalDate
 
 
 class VehicleService implements VehicleFacade{
@@ -78,7 +79,7 @@ class VehicleService implements VehicleFacade{
                 vehicle=new Vehicle();
                 vehicle.registrationNo=resultSet.getString(1)
                 vehicle.maker=resultSet.getString(2)
-                vehicle.dateOfRegistration=resultSet.getDate(3)
+                vehicle.dateOfRegistration= LocalDate.parse(resultSet.getString(3))
                 vehicle.chassisNo=resultSet.getString(4)
                 vehicle.engineNo= resultSet.getString(5)
                 vehicle.typeofFuel=Fuel.valueOf(resultSet.getString(6))
