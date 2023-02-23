@@ -16,7 +16,7 @@ def generateTable(){
 
 def Boolean insertVehicleData(){
     def vehicle=new Vehicle()
-    vehicle.setRegistrationNo("TN-02-AJ-2548")
+    vehicle.setRegistrationNo("TN-02-AJ-2549")
     vehicle.setMaker("Hyundai I10")
     vehicle.setDateOfRegistration(LocalDate.of(2019,12,7))
     vehicle.setChassisNo("A21467")

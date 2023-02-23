@@ -2,13 +2,14 @@ package com.optum.insurance.services
 
 import com.optum.insurance.facades.VehicleFacade
 import com.optum.insurance.helpers.DBHelper
+import com.optum.insurance.models.Fuel
 import com.optum.insurance.models.Vehicle
 import groovy.sql.Sql
-import groovy.util.logging.Slf4j
+
 
 import java.sql.SQLException
 
-@Slf4j
+
 class VehicleService implements VehicleFacade{
 
 
@@ -42,15 +43,15 @@ class VehicleService implements VehicleFacade{
         params.add(vehicle.getDateOfRegistration())
         params.add(vehicle.getChassisNo())
         params.add(vehicle.getEngineNo())
-        params.add(vehicle.getTypeofFuel())
+        params.add(vehicle.getTypeofFuel().name())
         params.add(vehicle.getColor())
         List<Object> results
         try {
             results=sqlInstance.executeInsert query, params
-            sqlInstance.commit()
+           // sqlInstance.commit()
         }
         catch(SQLException ex){
-            sqlInstance.rollback()
+           // sqlInstance.rollback()
             println ex.getMessage()
         }
         finally{
