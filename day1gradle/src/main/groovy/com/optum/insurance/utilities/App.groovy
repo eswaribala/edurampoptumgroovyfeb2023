@@ -16,13 +16,13 @@ def generateTable(){
 
 def Boolean insertVehicleData(){
     def vehicle=new Vehicle()
-    vehicle.setRegistrationNo("TN-02-AJ-2549")
-    vehicle.setMaker("Hyundai I10")
+    vehicle.setRegistrationNo("TN-02-AK-2543")
+    vehicle.setMaker("Honda City")
     vehicle.setDateOfRegistration(LocalDate.of(2019,12,7))
-    vehicle.setChassisNo("A21467")
-    vehicle.setEngineNo('A973699')
+    vehicle.setChassisNo("A21468")
+    vehicle.setEngineNo('A973612')
     vehicle.setTypeofFuel(Fuel.Diesel)
-    vehicle.setColor("Blue")
+    vehicle.setColor("Red")
     return vehicleService.addVehicle(vehicle)
 }
 
@@ -30,4 +30,6 @@ def getAllVehicles(){
     vehicleService.getAllVehicles().each {println(it)}
 }
 
-getAllVehicles()
+//getAllVehicles()
+
+println insertVehicleData()

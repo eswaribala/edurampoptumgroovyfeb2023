@@ -49,20 +49,20 @@ class VehicleService implements VehicleFacade{
         params.add(vehicle.getEngineNo())
         params.add(vehicle.getTypeofFuel().name())
         params.add(vehicle.getColor())
-        List<Object> results
+        int result
         try {
-            results=sqlInstance.executeInsert query, params
-           // sqlInstance.commit()
+            sqlInstance.executeInsert query, params
+            result=sqlInstance.updateCount
         }
         catch(SQLException ex){
-           // sqlInstance.rollback()
+
             println ex.getMessage()
         }
         finally{
             sqlInstance.close()
         }
 
-        if(results.size()>0)
+        if(result>0)
             return true;
         else
             return false;
