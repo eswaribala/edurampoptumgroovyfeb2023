@@ -18,6 +18,7 @@ class VehicleService implements VehicleFacade{
 
         sqlInstance= DBHelper.getConnection()
         def query=resourceBundle.getString("createVehicleTable")
+        //execute will return true only for select statement
         status=sqlInstance.execute(query)
         sqlInstance.close()
 
@@ -26,7 +27,8 @@ class VehicleService implements VehicleFacade{
 
     @Override
     Boolean addVehicle(Vehicle vehicle) {
-        return null
+
+
     }
 
     @Override
