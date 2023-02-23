@@ -12,5 +12,6 @@ class Address {
         streetName size: 5..50, blank: false
         city size: 5..50, blank: false
         state size: 5..50, blank: false
+        policyHolder nullable: true
     }
 }

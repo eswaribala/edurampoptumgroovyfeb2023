@@ -5,14 +5,14 @@ import java.time.LocalDate
 class PolicyHolder {
 
     Long policyNo
-    LocalDate fromDate
-    LocalDate toDate
+    Date fromDate
+    Date toDate
     String insuredName
     Gender gender
-    LocalDate dob
+    Date dob
     Long phoneNo
     String email
-    static hasOne = [vehicle: Vehicle]
+    static belongsTo = [vehicle: Vehicle]
     static hasMany = [addresses:Address]
     static constraints = {
         policyNo blank: false, unique: true
