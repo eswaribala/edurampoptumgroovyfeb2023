@@ -1,7 +1,13 @@
 package com.optum.insurance.utilities
 
 import com.optum.insurance.helpers.DBHelper
+import com.optum.insurance.services.VehicleService
+import groovy.transform.Field
 
-def conn= DBHelper.getConnection()
+@Field VehicleService vehicleService=new VehicleService()
 
-assert conn:"No connection"
+def generateTable(){
+    vehicleService.generateTable()
+}
+
+println "Table Generated Status ${generateTable()}"
