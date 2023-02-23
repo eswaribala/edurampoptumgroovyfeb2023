@@ -34,6 +34,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.spockframework/spock-core
     testImplementation group: 'org.spockframework', name: 'spock-core', version: '2.4-M1-groovy-4.0'
 
+// https://mvnrepository.com/artifact/org.apache.groovy/groovy-xml
+    implementation group: 'org.apache.groovy', name: 'groovy-xml', version: '4.0.2'
 
     //testImplementation 'junit:junit:4.13.1'
 }
