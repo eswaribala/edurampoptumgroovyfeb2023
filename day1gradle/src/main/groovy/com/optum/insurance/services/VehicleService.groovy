@@ -9,8 +9,14 @@ import groovy.sql.Sql
 
 import java.sql.SQLException
 import java.time.LocalDate
-
-
+/*
+@Grapes([
+        @Grab(group='org.slf4j', module='slf4j-api', version='1.6.1'),
+        @Grab(group='ch.qos.logback', module='logback-classic', version='0.9.28')
+])
+import org.slf4j.*
+import groovy.util.logging.Slf4j
+*/
 class VehicleService implements VehicleFacade{
 
 
@@ -22,6 +28,7 @@ class VehicleService implements VehicleFacade{
     public VehicleService(){
         resourceBundle=ResourceBundle.getBundle("db")
         vehicleList=new ArrayList<Vehicle>()
+      //  log.info 'Simple sample to show log field is injected.'
     }
 
     public Boolean generateTable(){

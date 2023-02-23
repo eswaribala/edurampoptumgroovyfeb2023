@@ -30,6 +30,6 @@ def getAllVehicles(){
     vehicleService.getAllVehicles().each {println(it)}
 }
 
-//getAllVehicles()
+getAllVehicles()
 
-println insertVehicleData()
+//println insertVehicleData()
