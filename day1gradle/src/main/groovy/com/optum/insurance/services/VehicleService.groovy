@@ -5,6 +5,8 @@ import com.optum.insurance.helpers.DBHelper
 import com.optum.insurance.models.Vehicle
 import groovy.sql.Sql
 
+import java.sql.SQLException
+
 class VehicleService implements VehicleFacade{
 
     Sql sqlInstance
@@ -27,7 +29,32 @@ class VehicleService implements VehicleFacade{
 
     @Override
     Boolean addVehicle(Vehicle vehicle) {
+        sqlInstance= DBHelper.getConnection()
+        def query=resourceBundle.getString("addVehicle")
 
+        List<Object> params=new ArrayList<Object>();
+        params.add(vehicle.getRegistrationNo())
+        params.add(vehicle.getMaker())
+        params.add(vehicle.getDateOfRegistration())
+        params.add(vehicle.getChassisNo())
+        params.add(vehicle.getEngineNo())
+        params.add(vehicle.getTypeofFuel())
+        params.add(vehicle.getColor())
+        List<Object> results
+        try {
+            results=sqlInstance.executeInsert query, params
+        }
+        catch(SQLException ex){
+
+        }
+        finally{
+            sqlInstance.close()
+        }
+
+        if(results.size()>0)
+            return true;
+        else
+            return false;
 
     }
 
