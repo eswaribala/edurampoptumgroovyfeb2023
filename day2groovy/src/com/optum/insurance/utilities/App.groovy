@@ -5,3 +5,5 @@ import com.optum.insurance.helpers.DBHelper
 def conn= DBHelper.getConnection()
 
 assert conn:"No connection"
+
+//println properties.createDoctorTable
