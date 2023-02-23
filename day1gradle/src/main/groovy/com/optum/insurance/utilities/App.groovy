@@ -26,4 +26,8 @@ def Boolean insertVehicleData(){
     return vehicleService.addVehicle(vehicle)
 }
 
-println "Data Generated Status ${insertVehicleData()}"
+def getAllVehicles(){
+    vehicleService.getAllVehicles().each {println(it)}
+}
+
+getAllVehicles()
