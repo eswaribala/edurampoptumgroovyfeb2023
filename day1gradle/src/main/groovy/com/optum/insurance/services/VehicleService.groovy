@@ -4,10 +4,13 @@ import com.optum.insurance.facades.VehicleFacade
 import com.optum.insurance.helpers.DBHelper
 import com.optum.insurance.models.Vehicle
 import groovy.sql.Sql
+import groovy.util.logging.Slf4j
 
 import java.sql.SQLException
 
+@Slf4j
 class VehicleService implements VehicleFacade{
+
 
     Sql sqlInstance
     ResourceBundle resourceBundle
@@ -30,6 +33,7 @@ class VehicleService implements VehicleFacade{
     @Override
     Boolean addVehicle(Vehicle vehicle) {
         sqlInstance= DBHelper.getConnection()
+
         def query=resourceBundle.getString("addVehicle")
 
         List<Object> params=new ArrayList<Object>();
@@ -43,9 +47,11 @@ class VehicleService implements VehicleFacade{
         List<Object> results
         try {
             results=sqlInstance.executeInsert query, params
+            sqlInstance.commit()
         }
         catch(SQLException ex){
-
+            sqlInstance.rollback()
+            println ex.getMessage()
         }
         finally{
             sqlInstance.close()
