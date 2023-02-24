@@ -1,4 +1,4 @@
-package com.optum.insurance.models.uitests
+package com.optum.insurance.tests
 
 import io.github.bonigarcia.wdm.WebDriverManager
 import org.openqa.selenium.By
@@ -8,7 +8,6 @@ import org.testng.Assert
 import org.testng.annotations.AfterMethod
 import org.testng.annotations.BeforeMethod
 import org.testng.annotations.Test
-
 
 import java.time.Duration
 
@@ -27,7 +26,7 @@ class CanadaPhoneTest {
 
     }
 
-    @Test(description = "This test validates error message when credentials are incorrect", priority = 0)
+    @Test
     public void verifyIncorrectCredentials() {
 
         driver.findElement(By.name("username")).sendKeys("Admin");

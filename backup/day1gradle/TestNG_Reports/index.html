@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Gradle_suite" class="navigator-link">
-              <span class="suite-name border-failed">Gradle suite</span>
+              <span class="suite-name border-passed">Gradle suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods failed suite-Gradle_suite"> (hide)</a> <!-- hide-methods failed suite-Gradle_suite -->
-                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods failed suite-Gradle_suite"> (show)</a> <!-- show-methods failed suite-Gradle_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods passed suite-Gradle_suite"> (hide)</a> <!-- hide-methods passed suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods passed suite-Gradle_suite"> (show)</a> <!-- show-methods passed suite-Gradle_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Gradle_suite">
+                    <div class="method-list-content passed suite-Gradle_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.LoginTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials">verifyIncorrectCredentials</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials">verifyIncorrectCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Gradle_suite -->
+                    </div> <!-- method-list-content passed suite-Gradle_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,10 +118,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Gradle_suite" class="panel Gradle_suite">
-          <div class="suite-Gradle_suite-class-failed">
+          <div class="suite-Gradle_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.optum.insurance.tests.LoginTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.optum.insurance.tests.CanadaPhoneTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,41 +129,12 @@
                   <a name="verifyIncorrectCredentials">
                   </a> <!-- verifyIncorrectCredentials -->
                   <span class="method-name">verifyIncorrectCredentials</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;app&apos;]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p&quot;}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b9a6e3e4e8487a8f23792a1f3d116cca, findElement {using=xpath, value=//*[@id=&apos;app&apos;]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:63932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63932/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b9a6e3e4e8487a8f23792a1f3d116cca
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.WebDriver$findElement$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at com.optum.insurance.tests.LoginTest.verifyIncorrectCredentials(LoginTest.groovy:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-... Removed 48 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (This test validates error message when credentials are incorrect)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Gradle_suite-class-failed -->
+          </div> <!-- suite-Gradle_suite-class-passed -->
         </div> <!-- panel Gradle_suite -->
         <div panel-name="test-xml-Gradle_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -175,7 +146,7 @@ Session ID: b9a6e3e4e8487a8f23792a1f3d116cca
 &lt;suite name=&quot;Gradle suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Gradle test&quot; verbose=&quot;0&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.optum.insurance.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.optum.insurance.tests.CanadaPhoneTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Gradle test --&gt;
 &lt;/suite&gt; &lt;!-- Gradle suite --&gt;
@@ -218,13 +189,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyIncorrectCredentials')
-data.setCell(0, 2, 'com.optum.insurance.tests.LoginTest')
-data.setCell(0, 3, 12147);
+data.setCell(0, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(0, 3, 15044);
 window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Gradle_suite">
               </div> <!-- times-div-Gradle_suite -->
             </div> <!-- times-div -->
@@ -250,20 +221,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.optum.insurance.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.optum.insurance.tests.CanadaPhoneTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyIncorrectCredentials</span>
-                <span class="method-start">15564 ms</span>
+                <span class="method-start">10701 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">27713 ms</span>
+                <span class="method-start">25747 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
