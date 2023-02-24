@@ -1,17 +1,15 @@
-package com.optum.insurance.tests
+package com.optum.insurance.models.tests
 
-import com.optum.insurance.Fuel
-import com.optum.insurance.Vehicle
-import org.junit.jupiter.api.Assertions
+
+import com.optum.insurance.models.Fuel
+import com.optum.insurance.models.Vehicle
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.DynamicTest
-import org.junit.jupiter.api.Order
 import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestFactory
-import org.junit.jupiter.api.Timeout
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.CsvFileSource
@@ -20,15 +18,9 @@ import org.junit.jupiter.params.provider.MethodSource
 import org.junit.jupiter.params.provider.ValueSource
 
 import java.time.LocalDate
-import java.time.Month
-import java.util.concurrent.TimeUnit
-import java.util.stream.IntStream
 import java.util.stream.Stream
 
-import static org.junit.jupiter.api.Assertions.assertAll
-import static org.junit.jupiter.api.Assertions.assertEquals
 import static org.junit.jupiter.api.Assertions.assertFalse
-import static org.junit.jupiter.api.Assertions.assertNotEquals
 import static org.junit.jupiter.api.Assertions.assertNotNull
 import static org.junit.jupiter.api.Assertions.assertTrue
 import static org.junit.jupiter.params.provider.Arguments.arguments

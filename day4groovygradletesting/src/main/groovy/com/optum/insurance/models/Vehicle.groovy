@@ -1,4 +1,4 @@
-package com.optum.insurance
+package com.optum.insurance.models
 
 import groovy.transform.Canonical
 
