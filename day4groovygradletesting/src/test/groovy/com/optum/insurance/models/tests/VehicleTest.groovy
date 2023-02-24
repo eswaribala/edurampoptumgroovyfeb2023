@@ -29,6 +29,8 @@ import java.sql.SQLException
 import java.time.LocalDate
 import java.util.stream.Stream
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertFalse
 import static org.junit.jupiter.api.Assertions.assertNotNull
 import static org.junit.jupiter.api.Assertions.assertTrue
@@ -194,4 +196,39 @@ class VehicleTest {
         }
         return vehicleList
     }
+
+    //harmcrest
+    @Test
+    @DisplayName("String Comparison")
+    void stringExamples() {
+       def vehicle1=new Vehicle()
+        def vehicle2=new Vehicle()
+        vehicle1.setColor("Blue")
+        vehicle2.setColor("Black")
+
+        assertThat("Comparing Strings", vehicle1.getColor(), is(vehicle2.getColor()));
+        assertThat( vehicle1.getColor(), equalTo( vehicle1.getColor()));
+        assertThat( vehicle1, sameInstance(vehicle2));
+        assertThat(vehicle1.getColor(), containsString("Blue"));
+        assertThat(vehicle1.getColor(), not(containsString("Blue")));
+    }
+
+    @Test
+    @DisplayName("List Examples")
+    void listExamples() {
+        // Create an empty list
+        List<Vehicle> list = getData()
+        assertThat(list, isA(List<Vehicle>.class));
+       // assertThat(list, empty());
+
+
+        assertThat(list, not(empty()));
+        assertThat(list, hasSize(5));
+       // assertThat(list, contains("One", "Two"));
+       // assertThat(list, containsInAnyOrder("Two", "One"));
+       // assertThat(list, hasItem("Two"));
+    }
+
+
+
 }
