@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.optum.insurance.tests.VehicleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T06:58:25" hostname="DESKTOP-55AGI0I" time="0.087">
+<testsuite name="com.optum.insurance.tests.VehicleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-24T07:01:52" hostname="DESKTOP-55AGI0I" time="0.166">
   <properties/>
-  <testcase name="[1] EV" classname="com.optum.insurance.tests.VehicleTest" time="0.087"/>
+  <testcase name="vehicleInstanceExists()" classname="com.optum.insurance.tests.VehicleTest" time="0.143"/>
+  <testcase name="vehicleInstanceExists() 1/2" classname="com.optum.insurance.tests.VehicleTest" time="0.003"/>
+  <testcase name="vehicleInstanceExists() 2/2" classname="com.optum.insurance.tests.VehicleTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

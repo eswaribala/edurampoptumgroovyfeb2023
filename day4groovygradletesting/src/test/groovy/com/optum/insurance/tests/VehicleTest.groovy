@@ -5,6 +5,7 @@ import com.optum.insurance.Vehicle
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Order
+import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Timeout
@@ -38,6 +39,7 @@ class VehicleTest {
     }
 
     @Test
+    @RepeatedTest(value=2, name = "{displayName} {currentRepetition}/{totalRepetitions}")
     void vehicleInstanceExists(){
         assertNotNull(vehicle)
     }
@@ -122,6 +124,7 @@ class VehicleTest {
     }
 
     @ParameterizedTest
+
     @EnumSource( value = Fuel.class, names = ["Petrol","Diesel"], mode = EnumSource.Mode.EXCLUDE)
     void vehicleFuelTest(Fuel fuel) {
         vehicle.setTypeofFuel(fuel)
