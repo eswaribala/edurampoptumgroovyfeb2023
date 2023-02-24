@@ -11,15 +11,18 @@ import org.junit.jupiter.api.Timeout
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.CsvFileSource
+import org.junit.jupiter.params.provider.EnumSource
 import org.junit.jupiter.params.provider.MethodSource
 import org.junit.jupiter.params.provider.ValueSource
 
 import java.time.LocalDate
+import java.time.Month
 import java.util.concurrent.TimeUnit
 import java.util.stream.IntStream
 import java.util.stream.Stream
 
 import static org.junit.jupiter.api.Assertions.assertAll
+import static org.junit.jupiter.api.Assertions.assertEquals
 import static org.junit.jupiter.api.Assertions.assertFalse
 import static org.junit.jupiter.api.Assertions.assertNotEquals
 import static org.junit.jupiter.api.Assertions.assertNotNull
@@ -107,12 +110,22 @@ class VehicleTest {
         vehicle.setEngineNo(engineNo)
         vehicle.setTypeofFuel(Enum.valueOf(Fuel.class, fuel))
         vehicle.setColor(color)
-
-        assertAll(
+        assertTrue(vehicle.getColor() !='Black' )
+        /*
+        Assertions.assertAll(
                 "Grouping more than one criteria",
-                () ->  assertTrue(vehicle.getColor() !='Black' ),
-                () ->  assertTrue(vehicle.typeofFuel != Fuel.EV)
+                () ->  Assertions.assertTrue(vehicle.getColor() !='Black' ),
+                () ->  Assertions.assertTrue(vehicle.typeofFuel != Fuel.EV)
         );
+
+         */
+    }
+
+    @ParameterizedTest
+    @EnumSource( value = Fuel.class, names = ["Petrol","Diesel"], mode = EnumSource.Mode.EXCLUDE)
+    void vehicleFuelTest(Fuel fuel) {
+        vehicle.setTypeofFuel(fuel)
+        assertFalse(vehicle.getTypeofFuel()!=Fuel.EV)
     }
 
 }
