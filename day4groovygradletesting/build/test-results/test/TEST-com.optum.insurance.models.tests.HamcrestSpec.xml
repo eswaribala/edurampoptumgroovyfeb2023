@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.optum.insurance.models.tests.HamcrestSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-02-24T09:50:04" hostname="DESKTOP-55AGI0I" time="0.613">
+  <properties/>
+  <testcase name="comparing two decimal numbers" classname="com.optum.insurance.models.tests.HamcrestSpec" time="0.613">
+    <failure message="Condition not satisfied:&#10;&#10;cost closeTo(1008 , 0.999999)&#10;|    |&#10;1009 false&#10;&#10;Expected: a numeric value within &lt;0.999999&gt; of &lt;1008&gt;&#10;     but: &lt;1009&gt; differed by &lt;1&gt;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+cost closeTo(1008 , 0.999999)
+|    |
+1009 false
+
+Expected: a numeric value within &lt;0.999999&gt; of &lt;1008&gt;
+     but: &lt;1009&gt; differed by &lt;1&gt;
+
+	at com.optum.insurance.models.tests.HamcrestSpec.comparing two decimal numbers(HamcrestSpec.groovy:13)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
