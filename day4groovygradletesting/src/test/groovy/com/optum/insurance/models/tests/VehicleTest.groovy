@@ -3,6 +3,9 @@ package com.optum.insurance.models.tests
 
 import com.optum.insurance.models.Fuel
 import com.optum.insurance.models.Vehicle
+import com.optum.insurance.respositories.VehicleRepo
+import com.optum.insurance.services.VehicleService
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.DynamicTest
@@ -16,7 +19,11 @@ import org.junit.jupiter.params.provider.CsvFileSource
 import org.junit.jupiter.params.provider.EnumSource
 import org.junit.jupiter.params.provider.MethodSource
 import org.junit.jupiter.params.provider.ValueSource
+import org.mockito.InjectMocks
+import org.mockito.Mock
+import org.mockito.Mockito
 
+import java.sql.SQLException
 import java.time.LocalDate
 import java.util.stream.Stream
 
@@ -131,4 +138,58 @@ class VehicleTest {
             DynamicTest.dynamicTest("Guess test") { -> assert new Random().nextInt(10000) < 10000 },
             DynamicTest.dynamicTest("Vehicle test") { -> assert new Vehicle() != null }
     ]}
+
+
+    @Mock
+    VehicleRepo repository;
+
+    @InjectMocks
+    VehicleService service;
+
+    @Test
+    void testSuccess() {
+
+
+        // Setup mock scenario
+        try {
+            Mockito.when(repository.getAllVehicles()).thenReturn(getData());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        // Execute the service that uses the mocked repository
+        List<Vehicle> stuff = service.selectedVehicles()
+
+        // Validate the response
+        Assertions.assertTrue(stuff.size()>0)
+
+    }
+
+    @Test
+    void testException() {
+        // Setup mock scenario
+        try {
+            Mockito.when(repository.getAllVehicles()).thenThrow(new SQLException("Connection Exception"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        // Execute the service that uses the mocked repository
+        List<String> stuff = service.selectedVehicles();
+
+        // Validate the response
+        Assertions.assertThrows(SQLException)
+        Assertions.assertEquals(0, stuff.size());
+    }
+
+    static  List<Vehicle> getData(){
+        List<Vehicle> vehicleList=new ArrayList<Vehicle>()
+        for(def i : 1..5){
+            vehicleList.add(new Vehicle("TN-32-24679"+String.valueOf(i),"Honda",
+                    LocalDate.of(2020,new Random().nextInt(10)+1,new Random().nextInt(25)+1), "234234","2454325",
+                    Fuel.Diesel,"Blue"))
+
+        }
+        return vehicleList
+    }
 }

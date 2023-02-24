@@ -1,5 +1,6 @@
 package com.optum.insurance.services
 
+import com.optum.insurance.models.Vehicle
 import com.optum.insurance.respositories.VehicleRepo
 
 import java.sql.SQLException
@@ -12,7 +13,7 @@ class VehicleService {
         this.vehicleRepo = vehicleRepo;
     }
 
-    List<String> getSelectedVehicles() {
+    List<Vehicle> getSelectedVehicles() {
         try {
             return vehicleRepo.getAllVehicles().stream()
                     .filter(vehicle -> vehicle.getDateOfRegistration().getMonth() < 8)
