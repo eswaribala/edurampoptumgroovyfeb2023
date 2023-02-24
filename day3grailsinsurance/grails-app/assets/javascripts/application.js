@@ -9,3 +9,6 @@
 //= require popper.min
 //= require bootstrap
 //= require_self
+function test(){
+    alert("Hi")
+}

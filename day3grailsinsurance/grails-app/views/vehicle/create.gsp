@@ -33,6 +33,9 @@
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
                 </fieldset>
             </g:form>
+<g:formRemote name="postCheck" url="[action: 'postCheck', params: [id:account?.id]]"
+              onSuccess="test('checks', e)"></p>
+</g:formRemote>
         </div>
     </body>
 </html>

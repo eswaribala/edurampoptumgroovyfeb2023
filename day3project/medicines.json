@@ -1,0 +1,17 @@
+[
+    {
+        "medicineId": 123,
+        "name": "brufen",
+        "dosage": "250mg"
+    },
+    {
+        "medicineId": 124,
+        "name": "amdol",
+        "dosage": "500mg"
+    },
+    {
+        "medicineId": 125,
+        "name": "dolo",
+        "dosage": "500mg"
+    }
+]

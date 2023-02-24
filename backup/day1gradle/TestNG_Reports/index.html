@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Gradle_suite" class="navigator-link">
-              <span class="suite-name border-passed">Gradle suite</span>
+              <span class="suite-name border-failed">Gradle suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 5 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Gradle_suite" class="hide-methods failed suite-Gradle_suite"> (hide)</a> <!-- hide-methods failed suite-Gradle_suite -->
+                      <a href="#" panel-name="suite-Gradle_suite" class="show-methods failed suite-Gradle_suite"> (show)</a> <!-- show-methods failed suite-Gradle_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Gradle_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(647-846-7271)">verifyIncorrectCredentials(647-846-7271)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(647-846-8449)">verifyIncorrectCredentials(647-846-8449)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(416-244-2644)">verifyIncorrectCredentials(416-244-2644)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(416-848-0701)">verifyIncorrectCredentials(416-848-0701)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(647-846-8452)">verifyIncorrectCredentials(647-846-8452)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Gradle_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +137,7 @@
                     <div class="method-list-content passed suite-Gradle_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials">verifyIncorrectCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Gradle_suite" title="com.optum.insurance.tests.CanadaPhoneTest" class="method navigator-link" hash-for-method="verifyIncorrectCredentials(905-841-0191)">verifyIncorrectCredentials(905-841-0191)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Gradle_suite -->
@@ -118,6 +152,134 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Gradle_suite" class="panel Gradle_suite">
+          <div class="suite-Gradle_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.optum.insurance.tests.CanadaPhoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIncorrectCredentials(647-846-7271)">
+                  </a> <!-- verifyIncorrectCredentials(647-846-7271) -->
+                  <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(647-846-7271)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ypgBody&quot;]/div[3]/div/div[1]/div[2]/div[1]/div[1]/h1/span&quot;}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [768be047327b36ee0f4b56559047e491, findElement {using=xpath, value=//*[@id=&quot;ypgBody&quot;]/div[3]/div/div[1]/div[2]/div[1]/div[1]/h1/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:64346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64346/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 768be047327b36ee0f4b56559047e491
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.WebDriver$findElement$1.call(Unknown Source)
+	at com.optum.insurance.tests.CanadaPhoneTest.verifyIncorrectCredentials(CanadaPhoneTest.groovy:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+... Removed 48 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test validates error message when credentials are incorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIncorrectCredentials(647-846-8449)">
+                  </a> <!-- verifyIncorrectCredentials(647-846-8449) -->
+                  <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(647-846-8449)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ypgBody&quot;]/div[3]/div/div[1]/div[2]/div[1]/div[1]/h1/span&quot;}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3ec218381065067cd5cb889f207afc3, findElement {using=xpath, value=//*[@id=&quot;ypgBody&quot;]/div[3]/div/div[1]/div[2]/div[1]/div[1]/h1/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:63958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63958/devtoo..., se:cdpVersion: 110.0.5481.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3ec218381065067cd5cb889f207afc3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.WebDriver$findElement$1.call(Unknown Source)
+	at com.optum.insurance.tests.CanadaPhoneTest.verifyIncorrectCredentials(CanadaPhoneTest.groovy:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+... Removed 48 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test validates error message when credentials are incorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIncorrectCredentials(416-244-2644)">
+                  </a> <!-- verifyIncorrectCredentials(416-244-2644) -->
+                  <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(416-244-2644)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Golf Town] but found [Royal Building Supplies Ltd]
+	at com.optum.insurance.tests.CanadaPhoneTest.verifyIncorrectCredentials(CanadaPhoneTest.groovy:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test validates error message when credentials are incorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIncorrectCredentials(416-848-0701)">
+                  </a> <!-- verifyIncorrectCredentials(416-848-0701) -->
+                  <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(416-848-0701)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Golf Town] but found [Cornerstone Construction Services Inc]
+	at com.optum.insurance.tests.CanadaPhoneTest.verifyIncorrectCredentials(CanadaPhoneTest.groovy:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test validates error message when credentials are incorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIncorrectCredentials(647-846-8452)">
+                  </a> <!-- verifyIncorrectCredentials(647-846-8452) -->
+                  <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(647-846-8452)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Golf Town] but found [AHM Logistics Inc]
+	at com.optum.insurance.tests.CanadaPhoneTest.verifyIncorrectCredentials(CanadaPhoneTest.groovy:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(This test validates error message when credentials are incorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gradle_suite-class-failed -->
           <div class="suite-Gradle_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,9 +288,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyIncorrectCredentials">
-                  </a> <!-- verifyIncorrectCredentials -->
+                  <a name="verifyIncorrectCredentials(905-841-0191)">
+                  </a> <!-- verifyIncorrectCredentials(905-841-0191) -->
                   <span class="method-name">verifyIncorrectCredentials</span>
+                  <span class="parameters">(905-841-0191)</span>
                   <em>
 (This test validates error message when credentials are incorrect)                  </em>
                 </div> <!-- method-content -->
@@ -186,16 +349,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyIncorrectCredentials')
 data.setCell(0, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
-data.setCell(0, 3, 15044);
+data.setCell(0, 3, 33689);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyIncorrectCredentials')
+data.setCell(1, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(1, 3, 25934);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyIncorrectCredentials')
+data.setCell(2, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(2, 3, 16743);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyIncorrectCredentials')
+data.setCell(3, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(3, 3, 14457);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyIncorrectCredentials')
+data.setCell(4, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(4, 3, 14365);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyIncorrectCredentials')
+data.setCell(5, 2, 'com.optum.insurance.tests.CanadaPhoneTest')
+data.setCell(5, 3, 10441);
 window.suiteTableData['Gradle_suite']= { tableData: data, tableDiv: 'times-div-Gradle_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Gradle_suite">
               </div> <!-- times-div-Gradle_suite -->
             </div> <!-- times-div -->
@@ -227,12 +410,82 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyIncorrectCredentials</span>
-                <span class="method-start">10701 ms</span>
+                <span class="method-name">verifyIncorrectCredentials(905-841-0191)</span>
+                <span class="method-start">14090 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">25747 ms</span>
+                <span class="method-start">28552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIncorrectCredentials(647-846-8449)</span>
+                <span class="method-start">36060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">46501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIncorrectCredentials(416-244-2644)</span>
+                <span class="method-start">53517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">79451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIncorrectCredentials(647-846-7271)</span>
+                <span class="method-start">86910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">120600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIncorrectCredentials(416-848-0701)</span>
+                <span class="method-start">127616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">141982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">142702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIncorrectCredentials(647-846-8452)</span>
+                <span class="method-start">149124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">165868 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

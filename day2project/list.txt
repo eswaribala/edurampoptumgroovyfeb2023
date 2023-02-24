@@ -1,0 +1,27 @@
+ Volume in drive D is DATA
+ Volume Serial Number is FE6F-7C72
+
+ Directory of D:\Users\Balasubramaniam\git\repository\groovyeduramp\day2project\src\com\optum\day2project\models
+
+01/03/2022  03:33 PM               330 Address.groovy
+01/03/2022  03:54 PM               771 Doctor.groovy
+01/03/2022  03:29 PM                72 Gender.groovy
+               3 File(s)          1,173 bytes
+
+ Directory of D:\Users\Balasubramaniam\git\repository\groovyeduramp\day2project\src\com\optum\day2project\services
+
+01/03/2022  03:20 PM               371 DoctorFacade.groovy
+01/03/2022  03:26 PM             1,513 DoctorService.groovy
+               2 File(s)          1,884 bytes
+
+ Directory of D:\Users\Balasubramaniam\git\repository\groovyeduramp\day2project\src\com\optum\day2project\utilities
+
+01/03/2022  03:52 PM               929 DoctorApp.groovy
+01/03/2022  04:50 PM               128 ExternalProcess.groovy
+01/03/2022  04:44 PM               606 ReadTextFile.groovy
+01/03/2022  04:44 PM               308 WriteTextFile.groovy
+               4 File(s)          1,971 bytes
+
+     Total Files Listed:
+               9 File(s)          5,028 bytes
+               0 Dir(s)  87,208,529,920 bytes free

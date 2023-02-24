@@ -1,0 +1,43 @@
+package com.optum.day1project.utilities
+import groovy.swing.SwingBuilder
+import java.awt.BorderLayout as BL
+
+count = 0
+new SwingBuilder().edt {
+  frame(title: 'Frame', size: [250, 75], show: true) {
+    borderLayout()
+    textlabel = label(text: 'Click the button!', constraints: BL.NORTH)
+    button(text:'Click Me',
+         actionPerformed: {count++; textlabel.text = "Clicked ${count} time(s)."; println "clicked"}, constraints:BL.SOUTH)
+  }
+}
+import groovy.swing.SwingBuilder
+import javax.swing.*
+import java.awt.*
+
+def swing = new SwingBuilder()
+
+def sharedPanel = {
+	 swing.panel() {
+		label("Shared Panel")
+	}
+}
+
+count = 0
+swing.edt {
+	frame(title: 'Frame', defaultCloseOperation: JFrame.EXIT_ON_CLOSE, pack: true, show: true) {
+		vbox {
+			textlabel = label('Click the button!')
+			button(
+				text: 'Click Me',
+				actionPerformed: {
+					count++
+					textlabel.text = "Clicked ${count} time(s)."
+					println "Clicked!"
+				}
+			)
+			widget(sharedPanel())
+			widget(sharedPanel())
+		}
+	}
+}

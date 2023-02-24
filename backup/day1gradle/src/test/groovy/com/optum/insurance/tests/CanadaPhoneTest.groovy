@@ -44,7 +44,8 @@ class CanadaPhoneTest {
 
     }
 
-    @DataProvider(name = "dp",parallel=true)
+    //@DataProvider(name = "dp",parallel=true)
+    @DataProvider(name = "dp")
     public Object[][] dp1() {
         return new Object[][] {
                 new Object[] { "905-841-0191" },
