@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.optum.insurance.models.interactiontests.EmailNotification" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T10:17:47" hostname="DESKTOP-55AGI0I" time="0.858">
-  <properties/>
-  <testcase name="account activation mail sent to user" classname="com.optum.insurance.models.interactiontests.EmailNotification" time="0.858"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
