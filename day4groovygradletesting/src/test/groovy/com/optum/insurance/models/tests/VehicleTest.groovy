@@ -13,6 +13,7 @@ import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestFactory
+import org.junit.jupiter.api.extension.ExtendWith
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.CsvFileSource
@@ -22,6 +23,7 @@ import org.junit.jupiter.params.provider.ValueSource
 import org.mockito.InjectMocks
 import org.mockito.Mock
 import org.mockito.Mockito
+import org.mockito.junit.jupiter.MockitoExtension
 
 import java.sql.SQLException
 import java.time.LocalDate
@@ -31,7 +33,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse
 import static org.junit.jupiter.api.Assertions.assertNotNull
 import static org.junit.jupiter.api.Assertions.assertTrue
 import static org.junit.jupiter.params.provider.Arguments.arguments
-
+@ExtendWith(MockitoExtension.class)
 class VehicleTest {
 
     static Vehicle vehicle
@@ -158,7 +160,7 @@ class VehicleTest {
         }
 
         // Execute the service that uses the mocked repository
-        List<Vehicle> stuff = service.selectedVehicles()
+        List<Vehicle> stuff = service.getSelectedVehicles()
 
         // Validate the response
         Assertions.assertTrue(stuff.size()>0)
@@ -175,7 +177,7 @@ class VehicleTest {
         }
 
         // Execute the service that uses the mocked repository
-        List<String> stuff = service.selectedVehicles();
+        List<String> stuff = service.getSelectedVehicles()
 
         // Validate the response
         Assertions.assertThrows(SQLException)

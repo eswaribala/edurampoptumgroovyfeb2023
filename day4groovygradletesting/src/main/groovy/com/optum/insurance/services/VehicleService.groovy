@@ -16,7 +16,7 @@ class VehicleService {
     List<Vehicle> getSelectedVehicles() {
         try {
             return vehicleRepo.getAllVehicles().stream()
-                    .filter(vehicle -> vehicle.getDateOfRegistration().getMonth() < 8)
+                    .filter(vehicle -> vehicle.getDateOfRegistration().getMonth().getValue() < 8)
                     .collect(Collectors.toList());
         } catch (SQLException e) {
             return Arrays.asList();
