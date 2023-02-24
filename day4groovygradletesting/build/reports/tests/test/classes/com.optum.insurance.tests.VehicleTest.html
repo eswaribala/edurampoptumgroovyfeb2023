@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">7</div>
+<div class="counter">4</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.351s</div>
+<div class="counter">0.163s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">42%</div>
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -70,16 +70,19 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="vehicleExpiryTest(String)[2]"></a>
-<h3 class="failures">[2] 2000-11-12</h3>
+<a name="testIsEvenRange(String, String, String)[1]"></a>
+<h3 class="failures">[1] TN-31-AK-33424, Honda, 2012-05-05</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:227)
-	at org.junit.jupiter.api.Assertions$assertFalse.callStatic(Unknown Source)
-	at app//com.optum.insurance.tests.VehicleTest.vehicleExpiryTest(VehicleTest.groovy:33)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at org.junit.jupiter.api.Assertions$assertTrue.callStatic(Unknown Source)
+	at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:231)
+	at app//com.optum.insurance.tests.VehicleTest.testIsEvenRange(VehicleTest.groovy:50)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,6 +128,11 @@
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
 	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
@@ -218,16 +226,16 @@
 </span>
 </div>
 <div class="test">
-<a name="vehicleExpiryTest(String)[5]"></a>
-<h3 class="failures">[5] 1995-03-27</h3>
+<a name="testIsEvenRange(String, String, String)[2]"></a>
+<h3 class="failures">[2] TN-31-AK-33425, Hyundai, 2001-11-09</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:227)
-	at org.junit.jupiter.api.Assertions$assertFalse.callStatic(Unknown Source)
-	at app//com.optum.insurance.tests.VehicleTest.vehicleExpiryTest(VehicleTest.groovy:33)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at org.junit.jupiter.api.Assertions$assertTrue.callStatic(Unknown Source)
+	at app//com.optum.insurance.tests.VehicleTest.testIsEvenRange(VehicleTest.groovy:50)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -273,6 +281,11 @@
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
 	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
@@ -366,16 +379,16 @@
 </span>
 </div>
 <div class="test">
-<a name="vehicleExpiryTest(String)[6]"></a>
-<h3 class="failures">[6] 1975-08-12</h3>
+<a name="testIsEvenRange(String, String, String)[3]"></a>
+<h3 class="failures">[3] TN-31-AK-33426, Suzuki, 2020-10-21</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:227)
-	at org.junit.jupiter.api.Assertions$assertFalse.callStatic(Unknown Source)
-	at app//com.optum.insurance.tests.VehicleTest.vehicleExpiryTest(VehicleTest.groovy:33)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at org.junit.jupiter.api.Assertions$assertTrue.callStatic(Unknown Source)
+	at app//com.optum.insurance.tests.VehicleTest.testIsEvenRange(VehicleTest.groovy:50)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -421,6 +434,11 @@
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
 	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
@@ -514,16 +532,16 @@
 </span>
 </div>
 <div class="test">
-<a name="vehicleExpiryTest(String)[7]"></a>
-<h3 class="failures">[7] 2002-04-19</h3>
+<a name="testIsEvenRange(String, String, String)[4]"></a>
+<h3 class="failures">[4] TN-31-AK-33427, Audi, 2019-09-21</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)
-	at app//org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)
-	at app//org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:227)
-	at org.junit.jupiter.api.Assertions$assertFalse.callStatic(Unknown Source)
-	at app//com.optum.insurance.tests.VehicleTest.vehicleExpiryTest(VehicleTest.groovy:33)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
+	at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:179)
+	at org.junit.jupiter.api.Assertions$assertTrue.callStatic(Unknown Source)
+	at app//com.optum.insurance.tests.VehicleTest.testIsEvenRange(VehicleTest.groovy:50)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -569,6 +587,11 @@
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
 	at java.base@11.0.15/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
 	at java.base@11.0.15/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
@@ -674,44 +697,26 @@
 </tr>
 </thead>
 <tr>
-<td class="success">[1] 2017-12-27</td>
-<td class="success">vehicleExpiryTest(String)[1]</td>
-<td class="success">0.337s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="failures">[2] 2000-11-12</td>
-<td class="failures">vehicleExpiryTest(String)[2]</td>
-<td class="failures">0.006s</td>
+<td class="failures">[1] TN-31-AK-33424, Honda, 2012-05-05</td>
+<td class="failures">testIsEvenRange(String, String, String)[1]</td>
+<td class="failures">0.156s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">[3] 2020-11-04</td>
-<td class="success">vehicleExpiryTest(String)[3]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">[4] 2022-01-15</td>
-<td class="success">vehicleExpiryTest(String)[4]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="failures">[5] 1995-03-27</td>
-<td class="failures">vehicleExpiryTest(String)[5]</td>
-<td class="failures">0.001s</td>
+<td class="failures">[2] TN-31-AK-33425, Hyundai, 2001-11-09</td>
+<td class="failures">testIsEvenRange(String, String, String)[2]</td>
+<td class="failures">0.003s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">[6] 1975-08-12</td>
-<td class="failures">vehicleExpiryTest(String)[6]</td>
-<td class="failures">0.001s</td>
+<td class="failures">[3] TN-31-AK-33426, Suzuki, 2020-10-21</td>
+<td class="failures">testIsEvenRange(String, String, String)[3]</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">[7] 2002-04-19</td>
-<td class="failures">vehicleExpiryTest(String)[7]</td>
+<td class="failures">[4] TN-31-AK-33427, Audi, 2019-09-21</td>
+<td class="failures">testIsEvenRange(String, String, String)[4]</td>
 <td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
@@ -725,7 +730,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 24-Feb-2023, 11:20:43 AM</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 24-Feb-2023, 11:35:05 AM</p>
 </div>
 </div>
 </body>
