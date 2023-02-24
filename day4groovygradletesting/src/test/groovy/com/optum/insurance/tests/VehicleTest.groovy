@@ -1,5 +1,6 @@
 package com.optum.insurance.tests
 
+import com.optum.insurance.Fuel
 import com.optum.insurance.Vehicle
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
@@ -43,7 +44,7 @@ class VehicleTest {
 
     @ParameterizedTest
     @MethodSource("generateVehicleData")
-    void testIsEvenRange(String regNo,String make, String dor) {
+    void vehicleRegNoTest(String regNo,String make, String dor) {
         vehicle.setMaker(make)
         vehicle.setRegistrationNo(regNo)
         vehicle.setDateOfRegistration(LocalDate.parse(dor))
@@ -58,6 +59,28 @@ class VehicleTest {
                 arguments("TN-31-AK-33425","Hyundai","2001-11-09"),
                 arguments("TN-31-AK-33426","Suzuki","2020-10-21"),
                 arguments("TN-31-AK-33427","Audi","2019-09-21"),
+
+
+        );
+    }
+
+
+
+    @ParameterizedTest
+    @MethodSource("generateVehicleInstances")
+    void vehicleInstanceMakerTest(Vehicle vehicleInstance) {
+        vehicle=vehicleInstance
+        assertTrue(vehicle.getMaker() != "Maruti")
+
+    }
+
+    static Stream<Arguments> generateVehicleInstances() {
+
+        return Stream.of(
+                arguments(new Vehicle("TN-32-24679","Honda", LocalDate.of(2020,1,1), "234234","2454325", Fuel.Diesel,"Blue")),
+                arguments(new Vehicle("TN-32-24680","Hyundai", LocalDate.of(2020,1,1), "234234","2454325", Fuel.Diesel,"Blue")),
+                arguments(new Vehicle("TN-32-24690","Benz", LocalDate.of(2020,1,1), "234234","2454325", Fuel.Diesel,"Blue")),
+                arguments(new Vehicle("TN-32-24697","Toyato", LocalDate.of(2020,1,1), "234234","2454325", Fuel.Diesel,"Blue")),
 
 
         );
