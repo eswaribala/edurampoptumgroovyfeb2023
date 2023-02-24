@@ -4,10 +4,13 @@ import com.optum.insurance.Fuel
 import com.optum.insurance.Vehicle
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
+import org.junit.jupiter.api.DisplayName
+import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.Order
 import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.TestFactory
 import org.junit.jupiter.api.Timeout
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
@@ -59,7 +62,7 @@ class VehicleTest {
         vehicle.setMaker(make)
         vehicle.setRegistrationNo(regNo)
         vehicle.setDateOfRegistration(LocalDate.parse(dor))
-        assertTrue(vehicle.getRegistrationNo().startsWith("AP"))
+        assertTrue(vehicle.getRegistrationNo().startsWith("TN"))
 
     }
 
@@ -124,11 +127,16 @@ class VehicleTest {
     }
 
     @ParameterizedTest
-
+    @DisplayName("Enum Test")
     @EnumSource( value = Fuel.class, names = ["Petrol","Diesel"], mode = EnumSource.Mode.EXCLUDE)
     void vehicleFuelTest(Fuel fuel) {
         vehicle.setTypeofFuel(fuel)
         assertFalse(vehicle.getTypeofFuel()!=Fuel.EV)
     }
 
+    @TestFactory
+    def dynamicTestCollection() {[
+            DynamicTest.dynamicTest("Add test") { -> assert 1 + 1 == 2 },
+            DynamicTest.dynamicTest("Multiply Test", () -> { assert 2 * 3 == 6 })
+    ]}
 }
