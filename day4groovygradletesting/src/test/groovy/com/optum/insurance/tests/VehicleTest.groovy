@@ -4,16 +4,22 @@ import com.optum.insurance.Fuel
 import com.optum.insurance.Vehicle
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
+import org.junit.jupiter.api.Order
+import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.Timeout
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
+import org.junit.jupiter.params.provider.CsvFileSource
 import org.junit.jupiter.params.provider.MethodSource
 import org.junit.jupiter.params.provider.ValueSource
 
 import java.time.LocalDate
+import java.util.concurrent.TimeUnit
 import java.util.stream.IntStream
 import java.util.stream.Stream
 
+import static org.junit.jupiter.api.Assertions.assertAll
 import static org.junit.jupiter.api.Assertions.assertFalse
 import static org.junit.jupiter.api.Assertions.assertNotEquals
 import static org.junit.jupiter.api.Assertions.assertNotNull
@@ -83,6 +89,29 @@ class VehicleTest {
                 arguments(new Vehicle("TN-32-24697","Toyato", LocalDate.of(2020,1,1), "234234","2454325", Fuel.Diesel,"Blue")),
 
 
+        );
+    }
+
+
+
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "Vehicle.csv", numLinesToSkip = 1)
+    @Tag("dev")
+    void testWithCsvFileSource(String regNo, String maker, String dor, String chassisNo, String engineNo, String fuel, String color) {
+
+       vehicle.setRegistrationNo(regNo)
+        vehicle.setMaker(maker)
+        vehicle.setDateOfRegistration(LocalDate.parse(dor))
+        vehicle.setChassisNo(chassisNo)
+        vehicle.setEngineNo(engineNo)
+        vehicle.setTypeofFuel(Enum.valueOf(Fuel.class, fuel))
+        vehicle.setColor(color)
+
+        assertAll(
+                "Grouping more than one criteria",
+                () ->  assertTrue(vehicle.getColor() !='Black' ),
+                () ->  assertTrue(vehicle.typeofFuel != Fuel.EV)
         );
     }
 
