@@ -136,7 +136,7 @@ class VehicleTest {
 
     @TestFactory
     def dynamicTestCollection() {[
-            DynamicTest.dynamicTest("Add test") { -> assert 1 + 1 == 2 },
-            DynamicTest.dynamicTest("Multiply Test", () -> { assert 2 * 3 == 6 })
+            DynamicTest.dynamicTest("Guess test") { -> assert new Random().nextInt(10000) < 10000 },
+            DynamicTest.dynamicTest("Vehicle test") { -> assert new Vehicle() != null }
     ]}
 }
