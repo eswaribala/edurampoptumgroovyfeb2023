@@ -26,7 +26,8 @@ dependencies {
     testImplementation group: 'org.spockframework', name: 'spock-core', version: '2.4-M1-groovy-4.0'
     // https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core
     testImplementation group: 'org.hamcrest', name: 'hamcrest-core', version: '2.2'
-
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.6'
 }
 
 test {

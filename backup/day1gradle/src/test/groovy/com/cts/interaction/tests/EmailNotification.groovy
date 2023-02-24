@@ -6,7 +6,7 @@ class EmailNotification extends Specification{
 	def "account activation mail sent to user"(){
 		setup:
 		UserService userService = new UserService()
-		 
+
 		def emailService = Mock(EmailService)  // As we are not testing email service, we mocked the emailService
 		emailService.sendMail(_,_,_,_) >> true  //This will ensure to return true for any argument passed for sendMail method
 		userService.emailService = emailService
