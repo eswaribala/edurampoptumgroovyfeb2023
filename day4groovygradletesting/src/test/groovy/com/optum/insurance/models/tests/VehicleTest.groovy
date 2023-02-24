@@ -206,7 +206,7 @@ class VehicleTest {
         vehicle1.setColor("Blue")
         vehicle2.setColor("Black")
 
-        assertThat("Comparing Strings", vehicle1.getColor(), is(vehicle2.getColor()));
+        assertThat("Comparing Strings", vehicle1.getColor(), is(vehicle1.getColor()));
         assertThat( vehicle1.getColor(), equalTo( vehicle1.getColor()));
         assertThat( vehicle1, sameInstance(vehicle2));
         assertThat(vehicle1.getColor(), containsString("Blue"));

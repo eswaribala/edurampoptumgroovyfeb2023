@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.optum.insurance.models.tests.VehicleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T07:48:57" hostname="DESKTOP-55AGI0I" time="1.822">
-  <properties/>
-  <testcase name="testSuccess()" classname="com.optum.insurance.models.tests.VehicleTest" time="1.822"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
